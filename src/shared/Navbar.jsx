@@ -12,7 +12,7 @@ const Navbar = () => {
 
     </>
     return (
-        <div className="sticky top-0 z-11">
+        <div className="sticky top-0 z-200">
             <div className="navbar bg-base-100  p-5">
                 <div className="navbar-start">
 

@@ -6,7 +6,7 @@ import { defineConfig } from "vite"
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: process.env.VITE_BASE_PATH || "/Axtra-Agency-Landing-Page",
+  // base: process.env.VITE_BASE_PATH || "/Axtra-Agency-Landing-Page",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),

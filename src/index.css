@@ -1,6 +1,11 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+/* body {
+  cursor: default;
+} */
+
+
 @custom-variant dark (&:is(.dark *));
 @plugin "daisyui";
 
