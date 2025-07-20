@@ -12,7 +12,7 @@ const Navbar = () => {
 
     </>
     return (
-        <div className="sticky top-0 z-200">
+        <div className="sticky top-0 z-200 ">
             <div className="navbar bg-base-100  p-5">
                 <div className="navbar-start">
 
@@ -25,7 +25,17 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-end">
                     <button className="btn btn-ghost btn-circle ">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 " fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /> </svg>
+                        
+                        <div className="dropdown ">
+                        <div tabIndex={0} role="button" className="btn btn-ghost ">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 " fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /> </svg>
+                        </div>
+                        <ul
+                            tabIndex={0}
+                            className="menu menu-sm dropdown-content text-white rounded-box z-1 mt-3 mr-30 w-80 p-2 shadow relative -translate-x-71">
+                            <input type="text" placeholder="Search" className="input input-bordered w-24 md:w-auto text-black" />
+                        </ul>
+                    </div>
                     </button>
                     <div className=" divider divider-horizontal"></div>
                     <div className="dropdown ">
@@ -34,7 +44,7 @@ const Navbar = () => {
                         </div>
                         <ul
                             tabIndex={0}
-                            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                            className="absolute -translate-x-40  border border-black bg-black menu menu-sm dropdown-content text-white rounded-box z-1 mt-3 mr-30 w-50 p-2 shadow">
                             {links}
                         </ul>
                     </div>

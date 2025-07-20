@@ -56,8 +56,8 @@ const Featured = () => {
 
             }} className=" bg-black h-190">
 
-                <div className="flex justify-center lg:max-w-7xl  md:max-w-4xl max-w-3xl mx-auto  h-full">
-                    <Carousel className="sm:w-140 md:w-180 lg:w-200 xl:w-250 w-100   "
+                <div className="flex justify-center xl:max-w-7xl lg:max-w-5xl md:max-w-3xl sm:max-w-xl max-w-sm mx-auto  h-full">
+                    <Carousel className=" sm:w-140 md:w-180 lg:w-200 xl:w-250 w-70   "
                         opts={{ loop: true }}
                         plugins={[Autoplay({ delay: 4000 })]}>
                         <CarouselContent>
@@ -65,7 +65,7 @@ const Featured = () => {
                                 <CarouselItem key={index}>
                                     <h1 className="text-white ml-3 pt-15 font-semibold text-xl">FEATURED <br /> WORK</h1>
                                     <p className="text-white md:ml-15 pt-10 relative z-2 xl:pb-10"><span className="text-5xl font-bold">{index + 1} / </span>4</p>
-                                    <div className="flex justify-between items-center  h-120  ">
+                                    <div className="flex justify-between items-center  h-120   ">
                                         <div id="text" className="z-15">
                                             <p className="text-white text-5xl  md:text-8xl xl:text-9xl font-bold relative -translate-y-16 -translate-x-1 shrink  z-2">
                                                 {"Benjon ".toUpperCase()}
@@ -80,7 +80,7 @@ const Featured = () => {
                                         <img
                                             src={src}
                                             alt={`Image ${index + 1}`}
-                                            className="relative  -translate-x-52 sm:-translate-x-42  z-0 sm:w-123 w-100 h-150 object-cover  "
+                                            className="relative  -translate-x-52 sm:-translate-x-42  z-0 sm:w-123 w-70 h-150 object-cover  "
                                         />
                                     </div>
                                 </CarouselItem>

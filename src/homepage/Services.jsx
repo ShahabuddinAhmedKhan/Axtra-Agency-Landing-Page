@@ -130,7 +130,7 @@ const Services = () => {
     }, [])
     return (
         <div>
-            <div className='sm:max-w-xl mx-auto'>
+            <div className='xl:max-w-7xl lg:max-w-5xl md:max-w-3xl sm:max-w-xl max-w-sm mx-auto'>
                 <h1 id='service' className='mt-15 mb-5 text-xl font-semibold text-gray-700'>{"Services".toUpperCase()}</h1>
                 <h1 className='text-4xl font-bold w-80 xl:py-5 xl:text-5xl'>
                     {
@@ -146,7 +146,7 @@ const Services = () => {
                 </p>
                 <hr className='mt-10 text-gray-300' />
             </div>
-            <div className='sm:max-w-xl md:max-w-3xl lg:max-w-7xl mx-auto mt-10'>
+            <div className='xl:max-w-7xl lg:max-w-5xl md:max-w-3xl sm:max-w-xl max-w-sm mx-auto mt-10'>
                 <div className='md:flex gap-10 justify-around'>
                     <h1 className='search text-3xl font-bold my-9 lg:text-4xl xl:text-5xl w-60 '>{"Search Engine Optimization".toUpperCase()}</h1>
                     <div className='w-85 space-y-7 font-semibold'>

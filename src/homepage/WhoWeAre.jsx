@@ -92,18 +92,18 @@ const WhoWeAre = () => {
 
                     }} className='bg-black border-red-600 overflow-hidden'>
 
-            <div className=' md:flex xl:max-w-7xl lg:max-w-5xl md:max-w-3xl max-w-xl mx-auto py-20 lg:py-30 gap-9 lg:gap-15 xl:gap-23'>
+            <div className=' md:flex xl:max-w-7xl lg:max-w-5xl md:max-w-3xl sm:max-w-xl max-w-sm mx-auto py-20 lg:py-30 gap-9 lg:gap-15 xl:gap-23'>
                 <div className='flex-1'>
                     <img className='w-full' src="https://axtra-next-agency.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.155b0493.jpg&w=1200&q=75" alt="" />
                 </div>
                 <div className='text-white flex-1 space-y-6'>
 
-                    <h1 id='who' className='text-xl'>
+                    <h1 id='who' className='text-xl pt-5'>
                         {
                             "Who We Are".toUpperCase()
                         }
                     </h1>
-                    <h3  className='text-3xl lg:text-4xl xl:text-5xl font-bold'>{
+                    <h3  className='text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold'>{
                         "We are leading /digital marketing/ agency.".toUpperCase().split("/").map((letter, idx) => <span key={idx} className='leading inline-block'>{letter}</span>)
                     }
                     </h3>

@@ -111,7 +111,7 @@ const Banner = () => {
                         gsap.to("#cursor", { borderColor: "#000000" })
                         gsap.to("#cursorDot", { backgroundColor: "#000000" })
 
-                    }} className='xl:text-[230px] lg:text-[160px]  md:text-9xl sm:text-7xl font-extrabold  text-[90px] w-200'>{"MARK".split("").map((letter, idx) => <span key={idx} className="letter inline-block  "> {letter}</span>)}</h1>
+                    }} className='xl:text-[230px] lg:text-[160px]  md:text-9xl sm:text-7xl text-6xl font-extrabold  sm:w-200 w-50'>{"MARK".split("").map((letter, idx) => <span key={idx} className="letter inline-block  "> {letter}</span>)}</h1>
                 </div>
                 <div className='flex flex-col-reverse md:flex-row  items-start md:gap-8 lg:gap-26 xl:gap-60 relative z-10'>
                     <div>
@@ -128,7 +128,7 @@ const Banner = () => {
                             gsap.to("#cursor", { borderColor: "#000000" })
                             gsap.to("#cursorDot", { backgroundColor: "#000000" })
 
-                        }} id="bannerText1" className='xl:text-[230px] lg:text-[160px]  md:text-9xl sm:text-7xl font-extrabold text-[90px] pl-50 sm:pl-55 md:pl-0'> {"ETING".split("").map((letter, idx) => <span key={idx} className="eting inline-block  "> {letter}</span>)}</h1>
+                        }} id="bannerText1" className='xl:text-[230px] lg:text-[160px]  md:text-9xl sm:text-7xl text-6xl  font-extrabold  pl-50 sm:pl-55 md:pl-0'> {"ETING".split("").map((letter, idx) => <span key={idx} className="eting inline-block  "> {letter}</span>)}</h1>
                     </div>
                 </div>
 

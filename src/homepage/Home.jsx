@@ -15,7 +15,7 @@ import Horizontal from './Horizontal';
 const Home = () => {
     return (
         <div>
-            <Cursor></Cursor>
+            <div className='sm:block hidden'><Cursor></Cursor></div>
             <Banner></Banner>
             <WhoWeAre></WhoWeAre>
             <Services></Services>
